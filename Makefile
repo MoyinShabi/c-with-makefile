@@ -25,5 +25,7 @@ clean:
 run: $(TARGET)
 	./$(TARGET)
 
+rebuild: clean all
+
 print-%:
 	@echo $* = $($*)
