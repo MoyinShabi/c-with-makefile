@@ -3,7 +3,7 @@
 ## Prerequisites
 
 Ensure you have the following installed:
-- GCC (GNU Compiler Collection)
+- GCC (GNU Compiler Collection) 
 - Make
 
 ## Steps to Run the Program
@@ -21,20 +21,28 @@ Ensure you have the following installed:
 
 ## Makefile Commands
 
-- **Build the Program**
+- **Build and run the program**
   ```sh
   make
   ```
   This command compiles the source files, creates the executable, and runs it automatically.
 
-- **Clean the Build Files**
+- **Clean the build files**
   ```sh
   make clean
   ```
   This command removes the compiled object files and the executable.
 
-- **Rebuild the Program**
+- **Rebuild the program**
   ```sh
   make rebuild
   ```
   This command cleans the build files, recompiles the source files and runs the program.
+
+- **Print the value of a Make variable**
+  ```sh
+  make print-VARIABLE_NAME
+  ```
+  This command prints the value of the specified make variable.
+
+  
