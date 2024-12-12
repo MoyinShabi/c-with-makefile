@@ -45,4 +45,10 @@ Ensure you have the following installed:
   ```
   This command prints the value of the specified make variable.
 
+- **Generate assembly files**
+  ```sh
+  make filename.s
+  ```
+  This command generates an assembly file from the specified source file (replace `filename` with the actual source file name without the `.c` extension).
+
   
